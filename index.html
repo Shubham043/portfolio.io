@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
+            <ul id="menu">
+                <li onclick="scrolll(5)"><a>Home</a></li>
+                <li onclick="scrolll(0)"><a> About</a></li>
+                <li onclick="scrolll(1)"><a>Projects</a></li>
+                <li onclick="scrolll(2)"><a>Skills</a></li>
+                <li onclick="scrolll(3)"><a>Acheivements</a></li>
+                <li onclick="scrolll(4)"><a>Contacts</a></li>
+            </ul>
+            <div class="menu-btn" id="btn">
+                <button id="btn1" onclick="show()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" fill="rgba(74,48,48,1)"/></svg></button>
+            </div>
+        </div>
+    </nav>
+    <!-- home section  -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="txt1">Hello, My name is</div>
+                <div class="txt2">Shubham Sharma</div>
+                <div class="txt3">I'm a Web<span>Devloper</span></div>
+                <a href="#">Hire Me</a>
+            </div>
+        </div>
+        <div class="scroll" >
+            <button id="scroll-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" fill="rgba(255,255,255,1)"/></svg></button>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="title">About Me</div>
+            <h2>
+                <div class="one"></div>
+                <div>who I am</div>
+                <div class="two"></div>
+            </h2>
+            <div class="about-content">
+                <div class="column-left">
+                    <img src="./shubh1.jpg" alt="">
+                    <button id="btn">Download CV</button>
+                </div>
+                <div class="text">
+                    <h2 id="h2">I AM SHUBHAM AND I'M A <span style="color: crimson;">" WEB DEVLOPER" </span></h2>
+                    <div class="text-flex">
+                        <p id="text1">
+                            Hii,Myself Shubham Sharma. I'm a passionate programmer and A web devloper. <br> <br>
+                             Currently I'm pursuing my btech in NATIONAL INSTITUTE OF TECHNOLGY(HAMIRPUR). <br>
+                             <br>
+                             I'm fond of learning new technologies,reading books listening mythlogical podcasts
+                            
+                        </p>
+                        <!-- <button>Download CV</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section  -->
+
+    <section class="projects">
+        <div class="max-width">
+            <div class="title">MY PROJECTS</div>
+            <span class="line">
+                <div class="onee"></div>
+                <div style="color: crimson;" class="line2">what i made</div>
+                <div class="onee"></div>
+            </span>
+            <div class="project-content">
+                <div class="card">
+                    <div class="box">
+                        <div class="pro1">
+                            <span class="game" style="background:#fff" ;><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M17 4a6 6 0 0 1 6 6v4a6 6 0 0 1-6 6H7a6 6 0 0 1-6-6v-4a6 6 0 0 1 6-6h10zm-7 5H8v2H6v2h1.999L8 15h2l-.001-2H12v-2h-2V9zm8 4h-2v2h2v-2zm-2-4h-2v2h2V9z" fill="rgba(242,9,9,1)"/></svg></i></span>
+                            <span> Project1</span>
+                            <p class="link"> github link: <a href="#" style="color:rgb(255, 64, 64)">https://github.com/Shubham043/savethebird.io</a></p>
+                            <p> That's a fun game created by me . In this game you have to save the bird from animals. </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="pro2">
+                            <span class="game" style="background: #fff" ;><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 22H5a3 3 0 0 1-3-3V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v12h4v4a3 3 0 0 1-3 3zm-1-5v2a1 1 0 0 0 2 0v-2h-2zM6 7v2h8V7H6zm0 4v2h8v-2H6zm0 4v2h5v-2H6z" fill="rgba(233,20,20,1)"/></svg></span>
+                            <span>Project 2</span>
+                            <p class="link"> github link: <a href="#" style="color:rgb(246, 0, 0)">https://github.com/Shubham043/noteslist.io.git</a>
+                            </p>
+                            <p> Here we comes to make a list of pending work or your today goals list and this will make you remember</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="pro3">
+                            <span class="game" style="background: #fff" ;><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M4 2h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm3 10v2h2v-2H7zm0 4v2h2v-2H7zm4-4v2h2v-2h-2zm0 4v2h2v-2h-2zm4-4v6h2v-6h-2zM7 6v4h10V6H7z" fill="rgba(238,15,15,1)"/></svg></i></span>
+                            <span>Project3</span>
+                            <p class="link"> github link: <a href="#" style="color:crimson;">calculator.com</a>
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus non optio
+                                perspiciatis! Maiores, neque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="max-width">
+            <span class="title">MY SKILLS</span>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="three">
+                        My experience and skills
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum itaque, officia voluptas ipsam
+                        dolorem id debitis earum doloremque perspiciatis reprehenderit consequuntur. Est officia odit
+                        dolorem repudiandae voluptatem, eveniet ipsum ut repellat impedit distinctio porro sit amet
+                        voluptas vero corrupti repellendus, dolores nemo officiis ratione temporibus vel, quaerat ipsam!
+                        Quasi, cupiditate!</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div><div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>javascript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++ </span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line c"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>react.js</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line react"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Acheivements section  -->
+    <section class="achieve">
+        <div class="max-width">
+            <h2 class="title">My Acheivements</h2>
+            <div class="carousel">
+                <div class="card">
+                    <div class="box">
+                    <img src="./yaju_edited.jpg" alt="" class="src">
+                    <div class="text">Name</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                    <img src="./yaju_edited.jpg" alt="" class="src">
+                    <div class="text">Name</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                    <img src="./yaju_edited.jpg" alt="" class="src">
+                    <div class="text">Name</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                    <img src="./yaju_edited.jpg" alt="" class="src">
+                    <div class="text">Name</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                    <img src="./yaju_edited.jpg" alt="" class="src">
+                    <div class="text">Name</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section  -->
+    <section class="contacts">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="carousel">
+                <div class="column left">
+                    <h3>Get in touch</h3>
+                    <p>I'm aviliable here.. put a mail to direct conversastion </p>
+                    <div class="name">
+                        <span><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M4 22a8 8 0 1 1 16 0H4zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6z"/></svg></i></span>
+                        <h3>Name</h3>
+                        <h4>Shubham Sharma</h4>
+                    </div>
+                    <div class="Address">
+                        <span><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9H0l10.327-9.388a1 1 0 0 1 1.346 0L22 11h-3v9zm-8-5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg></i></span>
+                        <h3>Address</h3>
+                        <h4>
+                <address>
+                    panipat , haryana
+                </address>
+                        </h4>
+                    </div>
+                    <div class="email">
+                        <span><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M19 20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9H0l10.327-9.388a1 1 0 0 1 1.346 0L22 11h-3v9zm-8-5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg></i></span>
+                        <h3>Email</h3>
+                        <h4> rawanshubham@gmail.com </h4>
+                    </div>
+                </div>
+                <div class="column right">
+                    <h2>Message Me</h2>
+                    <div class="input">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div  class="subject"><input type="text" placeholder="Subject"> <br>
+                    <input style="height: 5rem;" type="text" placeholder="Message"></div>
+                    <button>Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Made by Mr.iconic Shubham 
+    </footer>
+    <script>
+         const x = document.getElementById('menu');
+        const about = document.querySelector('.about');
+        const projects = document.querySelector('.projects');
+        const skills = document.querySelector('.skills');
+        const achieve = document.querySelector('.achieve');
+        const contacts = document.querySelector('.contacts');
+        const home = document.querySelector('.home');
+        const buttons = [about, projects, skills, achieve, contacts, home];
+        const scrollBtn = document.getElementById('scroll-btn');
+        let i = 0;
+        scrollBtn.addEventListener('click', ()=> {
+            buttons[i].scrollIntoView();
+            i++;
+            
+
+            console.log(i);
+            if(i === buttons.length) {
+                i=0;
+            }
+        })
+
+
+        navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', change);
+        function change() {
+            if (window.scrollY >= 50) {
+                navbar.classList.add('color');
+                
+            }
+            else {
+                navbar.classList.remove('color');
+            }
+
+        }
+        function show() {
+            var x = document.getElementById('menu');
+            var project = document.querySelector('.projects')
+            var contacts = document.querySelector('.contacts')
+            var skills = document.querySelector('.skills')
+            var acheive = document.querySelector('.achieve')
+            if (x.style.display == "none") {
+                x.style.display = "block";
+                project.style.display = "none";
+                contacts.style.display = "none";
+                skills.style.display = "none";
+                achieve.style.display = "none";
+            }
+            else {
+                x.style.display = "none";
+                project.style.display = "block";
+                contacts.style.display = "block";
+                skills.style.display = "block";
+                acheive.style.display = "block";
+            }
+        }
+    function scrolll(e) {
+        buttons[e].scrollIntoView();
+        console.log('home clicked')
+    }
+
+    </script>
+</body>
+
+</html>
